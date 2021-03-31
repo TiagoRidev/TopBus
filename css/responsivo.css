@@ -1,0 +1,162 @@
+/* Estilo para tablets e similares*/
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+
+
+}
+
+/* Estilo para SMARTPHONES e Similares*/
+@media only screen and (max-width: 787px) {
+
+.header {
+	position: relative;
+	padding-bottom: 10px;
+}
+
+.header img {
+	margin: 0px auto 10px auto;
+
+}
+
+.header-menu {
+	text-align: center;
+}
+
+.header-menu ul li {
+    display: block;
+	float: left; /*flutar a esquerda*/
+    width: 150px;
+	margin: 0px, 5px, 5px, 0px;          
+}
+
+.header-menu ul li a {    
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px;    
+    border-radius: 10px;
+}
+
+
+.redes-sociais-intro {
+	display: none;
+}
+
+/*Introdução*/
+.introducao {
+    width: 100%;
+    height: 100%;
+    background: url("/img/salao2.jpg") no-repeat center;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.introducao h1 {
+    font-size: 2rem;	
+	font-weight: bold;
+	margin-top: -30px;
+}
+
+.introducao p{    
+    text-align: center;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/*Nossos Serviços*/
+
+.nossos-servicos {
+    width: 100%;
+    height: 100%;
+    background: var(--beigee);
+    padding-top: 20px;
+}
+
+.subtitulo-preto {
+    position: relative;   
+    left: 72%;    
+    font-size: 15px;
+	margin-bottom: -40px;
+	
+}
+
+.btn-azul {
+    display: block;
+	margin-bottom: 20px;  
+    top: 0px;
+    left: 0px;    
+	text-align: center;
+	
+}
+
+
+/**Quebra**/
+.quebra{
+    width:100%;
+    height: 100%;
+}
+
+.subtitulo-creme h2 {
+    margin: 30px 10px;
+    font-size: 15px;
+	line-height: 25px;	
+	letter-spacing: .1em;   
+} 
+
+.texto-quebra p {
+    color: var(--beigee);
+    line-height: 20px;
+    font-size: 18px;
+	margin-top: -15px;
+	text-align: center;
+}
+
+.btn-creme {   
+	display: block;
+	left: 0%; 
+	margin-bottom: 15px; 
+	margin-top: -10px; 
+	text-align: center; 
+ }
+
+/***Footer***/
+.footer {  
+    width: 100%;
+    height: 100%;
+	
+}
+
+.subtitulo-footer {
+    display: inline;
+    color: var(--white);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+  /*  font-weight: bold; */
+    letter-spacing:.1em;
+    border-left: 8px solid var(--light-blue);    
+    padding-left: 5px;
+}
+
+.footer-rede-social {
+    margin: 40px 0px 0px 0px;    
+}
+
+/**Fale Conosco**/
+.fale-conosco a {	
+    position: absolute;     
+}
+
+.fale-conosco a img {	
+    position: fixed;
+    bottom: 900px;
+    margin-left: 80%; 
+    opacity: 0.8; 
+    transition: 0.2s;
+	z-index: 20;       
+}
+
+.fale-conosco a img:hover {
+    opacity: 1;
+}
+
+}
