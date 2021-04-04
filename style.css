@@ -406,5 +406,5 @@ footer p a:hover {
 
 .js .anime {
     opacity: 1;
-    transition: 800ms;
+    transition: opacity 800ms;
 }
