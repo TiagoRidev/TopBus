@@ -400,3 +400,11 @@ footer p a:hover {
     opacity: 1;
 }
 
+.js [data-anime] {
+    opacity: 0;
+}
+
+.js .anime {
+    opacity: 1;
+    transition: 800ms;
+}
