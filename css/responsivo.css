@@ -25,6 +25,7 @@
     display: block;
 	float: left; /*flutar a esquerda*/
     width: 150px;
+    
 }
 
 .header-menu ul li a {    
@@ -92,6 +93,7 @@
     margin: 0px 20px;
     border-left: var(--dark-blue) 5px solid; 
     padding-left: 10px;
+    
 } 
 
 .subtitulo-beige h2 {
@@ -102,18 +104,19 @@
 } 
 
 .container2 {   
-    display: block;    
+    display: block;
 }
 
 .container3 {   
     display: block;
 }
 
-.container2  p {
+
+.container2 {
     color: var(--beigee);
     line-height: 1px;
     font-size: 5px;
-    margin-top: -10px;
+    margin-top: -10px;    
 }
 
 .container3 p {

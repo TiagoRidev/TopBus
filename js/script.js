@@ -33,3 +33,21 @@ if(window.SimpleForm) {
         sucesso: "<div id='form-sucesso'><h2>Formulário enviado com sucesso</h2><p>Em breve entraremos em contato</p></div>", // mensagem de envio com sucesso
 });
 }
+
+
+
+function subirTela() {
+    window.scrollTo({
+        top: 0 ,
+        behavior: "smooth",
+    });
+}
+
+function animacaoTela() {
+    if(window.scrollY === 0) {
+        document.querySelector('.seta').style.display = 'none';
+    } else {
+        document.querySelector('.seta').style.display = 'block';
+    }
+}  
+        window.addEventListener('scroll', animacaoTela);

@@ -70,8 +70,8 @@ ul li  {
 
 .header-menu ul li a.menu-ativo {       
     background: var(--yelloww);
-    font-weight: bold;
-    color: var(--bluee);       
+    font-weight: normal;
+    color: var(--bluee);
 }
 
 /*****************Rede Social MENU ************/
@@ -80,10 +80,11 @@ ul li  {
 .subtitulo-rede-social {
     width: 255px;
     height: 15px; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 18px;
     margin-right: -5px;
-    line-height: 10px;    
+    line-height: 10px;   
+    
 }
 
 .redes-sociais-intro {
@@ -95,7 +96,8 @@ ul li  {
     display: flex;
     flex-wrap: wrap; /*faz quebrar se for necessário */
     justify-content: flex-end;
-    align-items: center;   
+    align-items: center;
+    
 }  
     
 .container-rs ul li{    
@@ -384,20 +386,33 @@ footer p a:hover {
     color: var(--white);
 }
 
-.fale-conosco a {
-    position: absolute;     
-}
 
-.fale-conosco a img {
+.btn-wpp, .seta {
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
     position: fixed;
-    bottom: 5px;
-    margin-left: 80%; 
-    opacity: 0.8; 
-    transition: 0.2s;       
+    bottom: 10px;
+    left: 95%;
+    transition: 0.3s;
 }
 
-.fale-conosco a img:hover {
-    opacity: 1;
+.btn-wpp:hover {
+    transform: scale(1.2)
+}
+
+.seta {
+    display: flex;
+    justify-content: flex-end;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 10px;
+    left: 90%;
+    cursor: pointer;
+    display: none;
+    
 }
 
 .js [data-anime] {

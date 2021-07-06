@@ -118,7 +118,7 @@ input[type=number]::-webkit-outer-spin-button{
 
 .container-light-blue {    
     background: var(--light-blue);
-      
+          
 }
 
 .subtitulo-creme h2 {
@@ -135,6 +135,11 @@ input[type=number]::-webkit-outer-spin-button{
 .tipo-cadastro ul li {
     display: inline-block;
     margin-left: 90px;
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .form div {    
