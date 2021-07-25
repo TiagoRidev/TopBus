@@ -1,5 +1,5 @@
 # TopBus
-Em andamento.
+Desenvolvimento de site em andamento.
  
  Primeiro projeto de Web Design. A Top Bus - Assistência Técnica é uma empresa fictícia.
 
