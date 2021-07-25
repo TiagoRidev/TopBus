@@ -5,7 +5,7 @@ Em andamento.
 
 O objetivo do site, é apresentar os serviços oferecidos e capitar clientes, fornecedores e futuros funcionários, através de um cadastro.
 
-O projeto ainda está em andamento. Está responsivo para mobile. Será aplicado técnicas de UI Design para suavizar o layout.
+O projeto ainda está em andamento. Iniciado o processo responsivo para mobile. Será aplicado técnicas de UI Design para suavizar o layout.
 
 Tecnologias utilizadas:
 
